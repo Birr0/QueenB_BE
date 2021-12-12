@@ -1,0 +1,765 @@
+1638474978572	geckodriver	INFO	Listening on 127.0.0.1:55850
+1638474981651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55851" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilewbsBNK"
+1638474982042	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilewbsBNK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55851/devtools/browser/9f4b0045-ee2f-427a-9027-711726bf66d7
+1638474984225	Marionette	INFO	Listening on port 55857
+1638474984350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479633241	Marionette	INFO	Stopped listening on port 55857
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilecQn7Rh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55885/devtools/browser/a29fb6bb-e389-4be3-a886-8ded16eab669
+1638474989863	Marionette	INFO	Listening on port 55909
+1638474990141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638474990533	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638475306984	Marionette	INFO	Stopped listening on port 55909
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "56104" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilehRz87M"
+1638475237803	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilehRz87M\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56104/devtools/browser/410e8da5-e69b-4990-bb10-ed91115d6f01
+1638475239766	Marionette	INFO	Listening on port 56112
+1638475240108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479632179	Marionette	INFO	Stopped listening on port 56112
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+AppData\\Local\\Temp\\rust_mozprofileXU5m8G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56139/devtools/browser/317fe722-42c2-4f8a-bb27-6d6cea05a4e7
+1638475245495	Marionette	INFO	Listening on port 56162
+1638475245858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638475246255	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479630952	Marionette	INFO	Stopped listening on port 56162
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile5zGFJy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56232/devtools/browser/3fa077b3-d420-4974-9eea-4653d2be136d
+1638475277460	Marionette	INFO	Listening on port 56239
+1638475277695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479629903	Marionette	INFO	Stopped listening on port 56239
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilebCY3rz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56267/devtools/browser/9ccb0d36-6488-4565-a9bf-6dbfe645f2ed
+1638475283282	Marionette	INFO	Listening on port 56288
+1638475283495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638475283921	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479628778	Marionette	INFO	Stopped listening on port 56288
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+AppData\\Local\\Temp\\rust_mozprofileGhRgOv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56362/devtools/browser/2405f8d7-467f-4d83-88a2-6316638adbb6
+1638475317981	Marionette	INFO	Listening on port 56370
+1638475318405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638475371696	Marionette	INFO	Stopped listening on port 56370
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rofilezpYtjw"
+1638475321850	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilezpYtjw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56400/devtools/browser/9ee4dca3-b649-4a55-9944-ba458ca4773f
+1638475323968	Marionette	INFO	Listening on port 56421
+1638475324210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638475324657	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638475329847	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638475370865	Marionette	INFO	Stopped listening on port 56421
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638475376058	geckodriver	INFO	Listening on 127.0.0.1:56598
+1638475379142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56599" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileaFrz7k"
+1638475379506	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileaFrz7k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56599/devtools/browser/392f87c0-5140-4edb-a3ae-065cd0a70ed4
+1638475381801	Marionette	INFO	Listening on port 56605
+1638475382295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479627721	Marionette	INFO	Stopped listening on port 56605
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+AppData\\Local\\Temp\\rust_mozprofileFhpq3U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56639/devtools/browser/aadc51b5-8240-4b00-bc01-068eba3e644b
+1638475388096	Marionette	INFO	Listening on port 56657
+1638475388534	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638475388948	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638475392663	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638475393326	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638475393486	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638475403782	Marionette	INFO	Stopped listening on port 56657
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638477441593	geckodriver	INFO	Listening on 127.0.0.1:51186
+1638477444699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51187" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileJiBv9G"
+1638477445117	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileJiBv9G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51187/devtools/browser/d39d36ef-f99f-447f-b80c-97cbf587c6de
+1638477447396	Marionette	INFO	Listening on port 51192
+1638477447891	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479626615	Marionette	INFO	Stopped listening on port 51192
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile9BAusL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51222/devtools/browser/4b4af20f-3e44-4150-adaf-8c2354577df1
+1638477453692	Marionette	INFO	Listening on port 51245
+1638477454180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638477454668	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638477459278	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638479637391	Marionette	INFO	Stopped listening on port 51245
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "51950" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileAqEZIu"
+1638478411455	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileAqEZIu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51950/devtools/browser/3199960e-9537-4d55-88db-065d5d07add9
+1638478414934	Marionette	INFO	Listening on port 51959
+1638478415114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479624072	Marionette	INFO	Stopped listening on port 51959
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilebbc7ej\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51983/devtools/browser/dda43a85-4d21-418d-8295-a3c3add01623
+1638478422394	Marionette	INFO	Listening on port 52012
+1638478422672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638478423210	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638478426979	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638478428032	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638479621734	Marionette	INFO	Stopped listening on port 52012
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilenqeUiM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52149/devtools/browser/bb8d5f7d-2974-4549-ba70-8d8ef1e86061
+1638478466078	Marionette	INFO	Listening on port 52154
+1638478466510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479621034	Marionette	INFO	Stopped listening on port 52154
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofiledxcNtV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52185/devtools/browser/4eee6c76-cb96-4a1d-92ff-bd890b6be6b4
+1638478474268	Marionette	INFO	Listening on port 52209
+1638478474300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638478474716	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638478479488	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638479620384	Marionette	INFO	Stopped listening on port 52209
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+mp\\rust_mozprofile5Scj4V"
+1638478654403	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile5Scj4V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52506/devtools/browser/f3bc8adc-c15d-44db-8054-fd60854f0dfa
+1638478659328	Marionette	INFO	Listening on port 52516
+1638478659453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638479619537	Marionette	INFO	Stopped listening on port 52516
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilefSZ6Xc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52633/devtools/browser/5f402210-db02-49aa-972c-49a3dbec6343
+1638478750582	Marionette	INFO	Listening on port 52641
+1638478750975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638478753483	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638478757877	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638479617093	Marionette	INFO	Stopped listening on port 52641
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileajPvVL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53049/devtools/browser/61deeda8-fca3-4a4b-bd26-92c29f24908e
+1638478996502	Marionette	INFO	Listening on port 53055
+1638478996754	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638478999181	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638479003518	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638479075473	Marionette	INFO	Stopped listening on port 53055
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638558155439	geckodriver	INFO	Listening on 127.0.0.1:54411
+1638558158529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54412" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilexLuOug"
+1638558158895	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilexLuOug\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54412/devtools/browser/3f241306-40ab-4e97-b2dc-f4e0d643f278
+1638558161025	Marionette	INFO	Listening on port 54417
+1638558161227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638558163651	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638558933563	Marionette	INFO	Stopped listening on port 54411638558933932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56884" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDaoAoJ"
+1638558934286	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDaoAoJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56884/devtools/browser/ad41d143-6a12-4fe8-9872-98186b309560
+1638558936333	Marionette	INFO	Listening on port 56897
+1638558936598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638558939017	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638558989547	Marionette	INFO	Stopped listening on port 56897
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "57065" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDjft1Y"
+1638558989989	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDjft1Y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57065/devtools/browser/f0a1a524-c77a-4da2-b6ca-9793cf9494b1
+1638558992142	Marionette	INFO	Listening on port 57073
+1638558992265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638558994779	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638559038757	Marionette	INFO	Stopped listening on port 57073
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638559043343	geckodriver	INFO	Listening on 127.0.0.1:57241
+1638559046405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57242" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilel9pjZE"
+1638559046711	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilel9pjZE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57242/devtools/browser/1ffaeffe-ed83-481e-bf8d-e76911d70de6
+1638559048685	Marionette	INFO	Listening on port 57248
+1638559049077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638559051491	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638559056123	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638559626902	Marionette	INFO	Stopped listening on port 57248
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+undError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilehLJzym\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57505/devtools/browser/2a15211f-199b-4855-99bd-482bcd7f71ef
+1638559132246	Marionette	INFO	Listening on port 57516
+1638559132748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638559135192	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638559144418	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638559241254	Marionette	INFO	Stopped listening on port 57516
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638570312445	geckodriver	INFO	Listening on 127.0.0.1:53189
+1638570315550	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53190" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileNrIHJd"
+1638570315942	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileNrIHJd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53190/devtools/browser/99b8112e-51f9-44df-bfa3-b9884af9176b
+1638570318095	Marionette	INFO	Listening on port 53198
+1638570318229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638570320639	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638570329925	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638570406823	Marionette	INFO	Stopped listening on port 53198
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638572871121	geckodriver	INFO	Listening on 127.0.0.1:53027
+1638572874224	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53028" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilehCLc9X"
+1638572874643	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilehCLc9X\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53028/devtools/browser/250f6763-9bc8-4cfb-bd6a-02a4a1ba9535
+1638572877064	Marionette	INFO	Listening on port 53057
+1638572877415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638572879849	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638572889724	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638572976049	Marionette	INFO	Stopped listening on port 53057
+1638656993182	geckodriver	INFO	Listening on 127.0.0.1:65012
+1638656996271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65013" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile0IFpE3"
+1638656996950	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile0IFpE3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65013/devtools/browser/49c47973-d28d-4587-922a-f91eabc94a99
+1638656999092	Marionette	INFO	Listening on port 65018
+1638656999254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638657001690	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638657011407	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638657062634	Marionette	INFO	Stopped listening on port 65018
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638711309138	geckodriver	INFO	Listening on 127.0.0.1:55322
+1638711312227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55323" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileqz87Kq"
+1638711312595	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileqz87Kq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55323/devtools/browser/5c7b636a-9a40-40c0-8c5e-b436d1f12d93
+1638711314798	Marionette	INFO	Listening on port 55328
+1638711314903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638711336144	Marionette	INFO	Stopped listening on port 55328
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "file://"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638711432933	geckodriver	INFO	Listening on 127.0.0.1:55382
+1638711436001	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55383" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileVLvFa6"
+1638711436331	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileVLvFa6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55383/devtools/browser/4f2a11dd-b06a-4b88-920d-5928107fc2b0
+1638711438518	Marionette	INFO	Listening on port 55388
+1638711438681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 570))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+1638711459732	Marionette	INFO	Stopped listening on port 55388
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal8589934593/customhighlighter54, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:292:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\nhide@resource://devtools/client/fronts/highlighters.js:32:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:640:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\n_hideBoxModel@resource://devtools/client/inspector/markup/markup.js:731:40\n_onMouseOut@resource://devtools/client/inspector/markup/markup.js:699:16\nobserve@resource://gre/modules/AsyncShutdown.jsm:575:16\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.js:2634:20\ndespatch@chrome://remote/content/marionette/server.js:306:40\nexecute@chrome://remote/content/marionette/server.js:279:16\nonPacket/<@chrome://remote/content/marionette/server.js:252:20\nonPacket@chrome://remote/content/marionette/server.js:253:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.js:500:20\n", "resource://devtools/shared/protocol/Front.js", 106))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "file://"
+1638711659111	geckodriver	INFO	Listening on 127.0.0.1:55447
+1638711662215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55448" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile5i2LRI"
+1638711662545	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile5i2LRI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55448/devtools/browser/175d3040-19b6-4c4b-816a-f07e03091f93
+1638711664549	Marionette	INFO	Listening on port 55454
+1638711664896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638711685643	Marionette	INFO	Stopped listening on port 55454
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "file://"
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\BR\AppData\Local\Temp\rust_mozprofile5i2LRI\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638711813301	geckodriver	INFO	Listening on 127.0.0.1:55542
+1638711816386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55543" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilel6kXu1"
+1638711816716	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilel6kXu1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55543/devtools/browser/af831d65-cab0-4200-9a62-d3be6711cf9c
+1638711818770	Marionette	INFO	Listening on port 55549
+1638711819072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638711839835	Marionette	INFO	Stopped listening on port 55549
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "file://"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638711843949	geckodriver	INFO	Listening on 127.0.0.1:55596
+1638711847037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55597" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDqAAPq"
+1638711847354	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDqAAPq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55597/devtools/browser/13c007eb-3679-4d14-8ea6-ca19bce3ec0b
+1638711849430	Marionette	INFO	Listening on port 55602
+1638711849707	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638711890464	Marionette	INFO	Stopped listening on port 55602
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "file://"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638712184398	geckodriver	INFO	Listening on 127.0.0.1:55662
+1638712187479	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55663" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileupRbIV"
+1638712187806	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileupRbIV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55663/devtools/browser/f6be1d74-1a4b-44b1-aa31-def1faac8412
+1638712189720	Marionette	INFO	Listening on port 55668
+1638712190165	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638713168723	Marionette	INFO	Stopped listening on port 55668
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+te enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilerrkb9V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55782/devtools/browser/980eca3f-f9ad-4aa8-8c49-eb85e0bf3266
+1638712906358	Marionette	INFO	Listening on port 55787
+1638712906703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638713167672	Marionette	INFO	Stopped listening on port 55787
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "55836" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilexh0npN"
+1638712965184	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilexh0npN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55836/devtools/browser/b97a791b-6d0d-4021-b914-8da8e0b0f9f1
+1638712967444	Marionette	INFO	Listening on port 55841
+1638712967528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638713166761	Marionette	INFO	Stopped listening on port 55841
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rofileU6ssme"
+1638713044116	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileU6ssme\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55917/devtools/browser/8a5fd75c-5c4d-4b15-b2d4-5b6b5d29a10d
+1638713046242	Marionette	INFO	Listening on port 55922
+1638713046492	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638713165636	Marionette	INFO	Stopped listening on port 55922
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638713201140	geckodriver	INFO	Listening on 127.0.0.1:56008
+1638713204225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56009" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile6QhSCz"
+1638713204537	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile6QhSCz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56009/devtools/browser/447e2cd1-c2a5-4a80-ab6b-1858ee51257b
+1638713206630	Marionette	INFO	Listening on port 56014
+1638713206898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638729277097	Marionette	INFO	Stopped listening on port 56014
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileW6i92v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55871/devtools/browser/32d5987d-c01d-4f76-b71d-fe57e64c745a
+1638713704868	Marionette	INFO	Listening on port 55876
+1638713705263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638729276049	Marionette	INFO	Stopped listening on port 55876
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileF9P1Pq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55973/devtools/browser/2714b0b0-7d16-4653-8ff5-26345a1d529d
+1638714135726	Marionette	INFO	Listening on port 55978
+1638714135984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638714492216	Marionette	INFO	Stopped listening on port 55978
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53032" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile7nvdaN"
+1638714210038	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile7nvdaN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53032/devtools/browser/0d829a25-7073-41f9-bb0f-0d419e382c7a
+1638714212040	Marionette	INFO	Listening on port 53038
+1638714212419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638714493380	Marionette	INFO	Stopped listening on port 53038
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638714522784	geckodriver	INFO	Listening on 127.0.0.1:63685
+1638714525887	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63686" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileqAXAMw"
+1638714526200	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileqAXAMw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63686/devtools/browser/86b8ff2f-82f5-4bd8-a3fb-6605077a91ad
+1638714528341	Marionette	INFO	Listening on port 63691
+1638714528570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638729274810	Marionette	INFO	Stopped listening on port 63691
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638912414503	geckodriver	INFO	Listening on 127.0.0.1:62662
+1638912417561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62663" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileZFukru"
+1638912442015	geckodriver	INFO	Listening on 127.0.0.1:62790
+1638912445080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62791" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileNTRA5D"
+1638912445404	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileNTRA5D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62791/devtools/browser/7eaf6e42-db9f-469e-9355-d1f9795b9a6a
+1638912447434	Marionette	INFO	Listening on port 62796
+1638912447757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638912450244	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638912453859	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638912459448	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638912481230	Marionette	INFO	Stopped listening on port 62796
+1639086410823	geckodriver	INFO	Listening on 127.0.0.1:50061
+1639086413904	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50062" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileQwsvcS"
+1639086414284	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileQwsvcS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50062/devtools/browser/c266c3c4-2292-4b8b-a36d-32e8bc679c58
+1639086416237	Marionette	INFO	Listening on port 50071
+1639086416616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639086419062	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1639086429983	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1639086579651	Marionette	INFO	Stopped listening on port 50071
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639091569263	geckodriver	INFO	Listening on 127.0.0.1:53083
+1639091572364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53084" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilepyydKa"
+1639091572783	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilepyydKa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53084/devtools/browser/02df2e8a-f943-4aca-b4d1-8c26650c24e9
+1639091574609	Marionette	INFO	Listening on port 53090
+1639091575094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639091577547	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1639091594272	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1639091736604	Marionette	INFO	Stopped listening on port 53090
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1639091886920	geckodriver	INFO	Listening on 127.0.0.1:53598
+1639091889994	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53599" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileeSmFgH"
+1639091890383	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileeSmFgH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53599/devtools/browser/601817c1-16f8-4606-9f9e-d1026dce499e
+1639091892530	Marionette	INFO	Listening on port 53610
+1639091892694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639091895136	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1639091906611	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1639092004597	Marionette	INFO	Stopped listening on port 53610

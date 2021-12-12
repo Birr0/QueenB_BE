@@ -1,0 +1,295 @@
+1638308879388	geckodriver	INFO	Listening on 127.0.0.1:57890
+1638308882447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57891" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileu9sQQD"
+1638308882842	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileu9sQQD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57891/devtools/browser/42b12bf2-0840-409b-9092-c0cd9d36d610
+1638308885080	Marionette	INFO	Listening on port 57898
+1638308885129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638308912355	Marionette	INFO	Stopped listening on port 57898
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638308922554	geckodriver	INFO	Listening on 127.0.0.1:57965
+1638308925609	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57966" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileEl19nC"
+1638308925961	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileEl19nC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57966/devtools/browser/8e1a048e-dd7f-4ec4-98bb-91d9c63937b6
+1638308928087	Marionette	INFO	Listening on port 57971
+1638308928277	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638309614885	Marionette	INFO	Stopped listening on port 57971
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileZ6f8pr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58230/devtools/browser/1798c217-8c23-4d62-9b21-202e20dca6ba
+1638309284031	Marionette	INFO	Listening on port 58237
+1638309284419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309613749	Marionette	INFO	Stopped listening on port 58237
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "58267" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile6JSgC9"
+1638309287831	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile6JSgC9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58267/devtools/browser/937cf477-602f-4a90-9107-fb84985791be
+1638309290052	Marionette	INFO	Listening on port 58288
+1638309290170	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309290598	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource:///modules/UrlbarInput.jsm, line 2952: TypeError: event.target.closest is not a function
+1638309616266	Marionette	INFO	Stopped listening on port 58288
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "52890" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileCDDu1P"
+1638309402581	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileCDDu1P\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52890/devtools/browser/f3f59758-310c-435b-ad4d-a46e049623d4
+1638309404657	Marionette	INFO	Listening on port 52895
+1638309404890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309612647	Marionette	INFO	Stopped listening on port 52895
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "52925" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilehNH1DG"
+1638309408327	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilehNH1DG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52925/devtools/browser/d9264ca4-fd47-499d-85ef-44ad6f38608d
+1638309410387	Marionette	INFO	Listening on port 52947
+1638309410671	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309411105	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638309617277	Marionette	INFO	Stopped listening on port 52947
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53027" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileZRVDLu"
+1638309451690	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileZRVDLu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53027/devtools/browser/e1561207-10a2-4e4d-be79-5b2c521b3877
+1638309453613	Marionette	INFO	Listening on port 53035
+1638309454026	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309609392	Marionette	INFO	Stopped listening on port 53035
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53066" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileO9cFZR"
+1638309457455	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileO9cFZR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53066/devtools/browser/a10002d6-0706-4b11-ac2b-a62baa2c73c3
+1638309459309	Marionette	INFO	Listening on port 53086
+1638309459806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309460188	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638309610353	Marionette	INFO	Stopped listening on port 53086
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rofilez5Ns9s"
+1638309536311	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilez5Ns9s\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53214/devtools/browser/33febd73-d9b5-4c08-8cf0-ce405c4375e5
+1638309538376	Marionette	INFO	Listening on port 53219
+1638309538676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309611177	Marionette	INFO	Stopped listening on port 53219
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rofilekMHZna"
+1638309542105	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilekMHZna\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53246/devtools/browser/69a01b4b-618d-4e8e-9db9-63cf1c6e0394
+1638309544238	Marionette	INFO	Listening on port 53271
+1638309544468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309544916	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638309548588	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638309549412	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638309555718	Marionette	INFO	Stopped listening on port 53271
+1638309576853	geckodriver	INFO	Listening on 127.0.0.1:53397
+1638309579929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53398" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilec70L2D"
+1638309580245	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilec70L2D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53398/devtools/browser/2687829c-c6c3-44cb-b83b-8c4577f541df
+1638309582251	Marionette	INFO	Listening on port 53405
+1638309582607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309606805	Marionette	INFO	Stopped listening on port 53405
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "53435" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileKpiT6U"
+1638309586036	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileKpiT6U\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53435/devtools/browser/742ff36d-defd-4ee7-be30-81add7e2d81a
+1638309588042	Marionette	INFO	Listening on port 53456
+1638309588403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638309588812	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638309592520	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638309593286	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638309618439	Marionette	INFO	Stopped listening on port 53456
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638310586450	geckodriver	INFO	Listening on 127.0.0.1:54344
+1638310589493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54345" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile9YScG2"
+1638310589842	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofile9YScG2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54345/devtools/browser/2243cf41-f4ab-47e2-9ba1-cb6beda4408f
+1638310591710	Marionette	INFO	Listening on port 54355
+1638310592173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638310661148	Marionette	INFO	Stopped listening on port 54355
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54384" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilewGmZqv"
+1638310595571	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofilewGmZqv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54384/devtools/browser/87ec3537-c531-4a84-9146-156894f9c90b
+1638310597602	Marionette	INFO	Listening on port 54404
+1638310597968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638310598355	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638310602923	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638310663123	Marionette	INFO	Stopped listening on port 54404
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638310840256	geckodriver	INFO	Listening on 127.0.0.1:54691
+1638310843327	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54692" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDSKEJW"
+1638310843630	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDSKEJW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54692/devtools/browser/4831aa1e-940d-4558-88ab-b63a086b4d2f
+1638310845436	Marionette	INFO	Listening on port 54697
+1638310845487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638310878970	Marionette	INFO	Stopped listening on port 54697
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "54721" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDj89xj"
+1638310848923	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileDj89xj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54721/devtools/browser/605a7a5a-2973-4800-8adc-671e6e80a956
+1638310850908	Marionette	INFO	Listening on port 54750
+1638310851275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638310851675	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638310856214	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638313005279	Marionette	INFO	Stopped listening on port 54750
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rch.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54964/devtools/browser/48eaf2f5-0b46-42b1-8068-807e6d7efb02
+1638310998213	Marionette	INFO	Listening on port 54971
+1638310998558	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638313001904	Marionette	INFO	Stopped listening on port 54971
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileBtjs9J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54996/devtools/browser/780121ba-1de8-49df-b873-d79a5a919d3a
+1638311004199	Marionette	INFO	Listening on port 55026
+1638311004302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638311004758	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638313000630	Marionette	INFO	Stopped listening on port 55026
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileZi9Boo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55183/devtools/browser/1e4910e0-03e4-4b91-8a54-d4a6d21fcd77
+1638311188721	Marionette	INFO	Listening on port 55192
+1638311189010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638311199314	Marionette	INFO	Stopped listening on port 55192
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rofileaVw5tQ"
+1638311192443	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileaVw5tQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55218/devtools/browser/94629674-70e7-4c14-8b1f-c05d8b9a2b41
+1638311194367	Marionette	INFO	Listening on port 55240
+1638311194763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638311195152	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638312995805	Marionette	INFO	Stopped listening on port 55240
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileeRx6tt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55316/devtools/browser/1b0cd95a-8b96-498c-bd9c-6e313cb7ac0e
+1638311242407	Marionette	INFO	Listening on port 55323
+1638311242531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638312997462	Marionette	INFO	Stopped listening on port 55323
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileRBWx9H\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55356/devtools/browser/bcea9a17-9b45-4d9b-95e9-14221d947da1
+1638311248407	Marionette	INFO	Listening on port 55391
+1638311248800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638311249203	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638311254077	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638311260230	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1638311263598	Marionette	INFO	Stopped listening on port 55391
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638311456087	geckodriver	INFO	Listening on 127.0.0.1:55675
+1638311459153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55676" "-no-remote" "-profile" "C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileb3nYUV"
+1638311459493	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileb3nYUV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55676/devtools/browser/9da8275f-73fe-4235-b880-c6d9796edfeb
+1638311461425	Marionette	INFO	Listening on port 55683
+1638311461825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638312999179	Marionette	INFO	Stopped listening on port 55683
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileq07918\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55715/devtools/browser/a4a9cb25-e3ea-4afc-957c-f34a37a44354
+1638311467364	Marionette	INFO	Listening on port 55735
+1638311467584	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638311467984	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638311472942	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1638313007048	Marionette	INFO	Stopped listening on port 55735
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileGTAO3q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55414/devtools/browser/58ae1682-e164-41c5-a203-cc7aaf360128
+1638311554437	Marionette	INFO	Listening on port 55421
+1638311554715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1638313003530	Marionette	INFO	Stopped listening on port 55421
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\BR\\AppData\\Local\\Temp\\rust_mozprofileZvrFF2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55447/devtools/browser/bff59b3c-5a3e-421a-a2f1-ee16f0e79f85
+1638311560261	Marionette	INFO	Listening on port 55473
+1638311560489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638311560991	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1638311565606	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+JavaScript error: , line 0: NotAllowedError: The play method is not allowed by the user agent or the platform in the current context, possibly because the user denied permission.
+1638311574938	Marionette	INFO	Stopped listening on port 55473
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
