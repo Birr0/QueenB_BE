@@ -12,7 +12,7 @@ class MsStreams:
     def test(self, gd_path):
         print(gd_path)
 
-    def download_transcripts(self, gd_path, db, resource_urls):
+    def download_transcripts(self, gd_path, db, resource_urls, data):
         print('Creating web driver.')
         driver = webdriver.Firefox(executable_path=gd_path)
         for i in range(len(resource_urls)): 
@@ -25,11 +25,12 @@ class MsStreams:
                 document['url'] = resource_urls[i]
                 document['type'] = 'video'
             except:
-                raise
+                pass
             
             #WebDriverWait(driver)#.until(EC.presence_of_element_located((By.NAME, "loginfmt")))
             try:
                 if i == 0:
+                    time.sleep(2)
                     elem = driver.find_element_by_name("loginfmt")
                     elem.clear()
                     print(os.environ.get('MS_USERNAME'))
@@ -46,7 +47,7 @@ class MsStreams:
 
             except:
                 print('Login unsucessful')
-                raise
+                pass
 
             try:
                 print('Getting transcript data ...')
@@ -59,17 +60,26 @@ class MsStreams:
                     document['video_data'] = content
                 except:
                     print('Transcript is unavailable.')
-                    raise
+                    pass
 
-                video_data = driver.find_element_by_class_name("video-meta-container")
-                soup = BeautifulSoup(video_data.get_attribute('innerHTML'), 'lxml')
+                document['lecturer'] = data['lecturer']
+                document['module_code'] = data['module_code']
+                document['module_name'] = data['module_name']
 
-                title = soup.find(class_="title ng-binding").text
-                document['title'] = title
-                lecturer = soup.find(class_="c-hyperlink info-message-link ng-binding").text
-                document['lecturer'] = lecturer
-                date = soup.find(class_="info-message-content ng-binding ng-scope").text
-                document['date'] = date
+                try:
+                    video_data = driver.find_element_by_class_name("video-meta-container")
+                    soup = BeautifulSoup(video_data.get_attribute('innerHTML'), 'lxml')
+
+                    title = soup.find(class_="title ng-binding").text
+                    document['title'] = title
+                except:
+                    title = '{}-{}-{}'.format(data['lecturer'],data['module_code'],data['module_name'])
+                #lecturer = soup.find(class_="c-hyperlink info-message-link ng-binding").text
+                
+                #date = soup.find(class_="info-message-content ng-binding ng-scope").text
+                #document['date'] = date
+
+
                 try:
                     description = soup.find(class_="item-description-content ng-binding ng-scope").text
                     document['description'] = description

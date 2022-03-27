@@ -1,4 +1,4 @@
-from search_engine.indexer import index, timing, analyse
+from search_engine.indexer import index#, timing, analyse
 import db_init
 from scraper.transcript_generator_ms_streams.get_transcript import MsStreams
 
@@ -8,34 +8,37 @@ from dotenv import load_dotenv
 
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTTextContainer
+import json
+
 
 load_dotenv()
 
 from os import listdir
 from os.path import isfile, join
 
-def create_documents_from_notes():
-    onlyfiles = [f for f in listdir("./notes") if isfile(join("./notes", f))]
 
-
-    for file in onlyfiles:
+def create_documents(files, path, doc_type, lecturer, module):
+    #files = [f for f in listdir("./notes") if isfile(join("./notes", f))]
+    ids = []
+    module = module.split('_')
+    for file in files:
         page_no = 1
-        for page in extract_pages("./notes/astro_mooj/" + file):
+        for page in extract_pages(f'{path}/{file}'):
             print(file + 'Page is number ' + str(page_no))
             for element in page:
                 if isinstance(element, LTTextContainer):
-                    db_init.db.documents.insert_one({
+                    x = db_init.db.documents.insert_one({
                         'title': '{} - Page {}'.format(file, page_no),
-                        'filename': '{}'.format(file),
-                        'type': 'pdf',
+                        #'filename': '{}'.format(file),
+                        'type': doc_type,
                         'content': element.get_text().strip(),
-                        'page_number': page_no,
-                        'lecturer' : '',
-                        'date': '09/12/2021',
-                        'description': ''
+                        'lecturer' : lecturer,
+                        'module_code': module[0],
+                        'module_name' : module[1],
                     })
+                    ids.append(x.inserted_id)
             page_no += 1
-
+    return ids
 
 def compile_index():
     index.Index(db = db_init.db).delete_index()
@@ -45,11 +48,171 @@ def compile_index():
         print(f'Adding document {ID}')
         index.Index(db = db_init.db).index_document(document)
 
+#compile_index()
+
+# need to delete old documents ... Think about pipeline as well
+
+#db_init.db.documents.drop()
+#db_init.db.index.drop()
+
+'''
+modules = [f for f in listdir("./notes")]
+for module in modules:
+    resources = (listdir(f'./notes/{module}'))
+    for resource in resources: # resources = 'assignments', 'exam_papers' or 'lecturer_name'
+        if resource == 'assignments':
+            #print(listdir(f'./notes/{module}/assignments'))
+            create_documents(listdir(f'./notes/{module}/assignments'),f'./notes/{module}/assignments' ,'assignment', '' ,module)
+        if resource == 'exam_papers':
+            create_documents(listdir(f'./notes/{module}/exam paper'), f'./notes/{module}/exam paper','exam paper', '' ,module)
+
+        else:
+            docs = (listdir(f'./notes/{module}/{resource}'))
+            for k in docs:
+                if k == 'notes':
+                    create_documents(listdir(f'./notes/{module}/{resource}/notes'),f'./notes/{module}/{resource}/notes', 'notes', resource, module)
+                if k == 'slides':
+                    create_documents(listdir(f'./notes/{module}/{resource}/slides'),f'./notes/{module}/{resource}/slides', 'slides', resource, module)
+                if k == 'transcripts':
+                    with open(f'./notes/{module}/{resource}/transcripts/transcripts.json') as f:
+                        transcripts = json.load(f)
+                        modules = module.split('_')
+                        MsStreams().download_transcripts(db = db_init.db, gd_path="scraper/transcript_generator_ms_streams/geckodriver/geckodriver.exe", resource_urls=transcripts, data={'module_code': modules[0], 'module_name': modules[1], 'lecturer': resource})
+                else:
+                    pass
+'''
+docs = db_init.db.documents.find({'lecturer':'Dr Daniele Margarone', 'type':'video'})
+
+
+for doc in docs:
+    #doc = db_init.db.documents.find_one({'_id': id})
+    
+    print('adding {}'.format(doc['_id']))
+    
+    index.Index(db=db_init.db).index_document(doc)
+
+
+
+#x = db_init.db.documents.find({'type':'exam paper'})
+#compile_index()
+
+'''
+ARREDONDO = [
+    "https://web.microsoftstream.com/video/aba660ed-d13d-4c82-93f3-09f013295ace",
+    "https://web.microsoftstream.com/video/26502012-af5b-4119-bc6a-56307b5598d3",
+    "https://web.microsoftstream.com/video/b23655bf-e3f1-4ba5-93fe-2492c2064413",
+    "https://web.microsoftstream.com/video/21bfe229-e650-4763-8ef8-0f3ffe667740",
+    "https://web.microsoftstream.com/video/43de9fc8-5c76-47ec-b8e4-a0e94c4c5ffe",
+    "https://web.microsoftstream.com/video/6879af14-3dc4-4013-8b22-aff3cebc5576",
+    "https://web.microsoftstream.com/video/822ee8b4-5b55-41a0-893f-fba8e82d0be1",
+    #"https://eu.nv.instructuremedia.com/fetch/QkFoYkIxc0hhUU5FQ01jd2JDc0gwd0ExWWc9PS0tOGVmN2Y0MWQ0YmMzNzIwMjJjNzVlNDIwOThhNWYyNjhjMjA4MjkwOA.mp4"
+    "https://web.microsoftstream.com/video/7c38dbbd-b386-4359-a7bf-256c621f940e",
+    "https://web.microsoftstream.com/video/2ad7a6b1-5496-48dc-bd6e-d587394ce593"
+]
+
+GREGG = [
+    "https://web.microsoftstream.com/video/a6196026-4e1d-496a-b5aa-0478af48f75d",
+    "https://web.microsoftstream.com/video/8705ad31-31a8-48c9-a46f-4904099cce99",
+    "https://web.microsoftstream.com/video/9077eaa3-156b-4515-9e44-c2d2cec09cf7",
+    "https://web.microsoftstream.com/video/286542f5-7de2-410d-922e-7ab9f0847d9b",
+    "https://web.microsoftstream.com/video/bd092712-e33d-4999-afcf-f5c0e92fedc3",
+    "https://web.microsoftstream.com/video/bb8d078f-830b-42a9-86ac-1de31566a368",
+    "https://web.microsoftstream.com/video/11425589-fc09-4127-b455-4e9955660b4e",
+    "https://web.microsoftstream.com/video/2cc390db-72dd-496b-b49f-3fb1a190ef0d?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f",
+    "https://web.microsoftstream.com/video/de073c71-4c8c-4c9c-bb7f-4040b833a3d9?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f"
+    "https://web.microsoftstream.com/video/df83ecdf-35fd-45e5-bee4-c595c5b87c86?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f",
+    #PHONONS
+    "https://web.microsoftstream.com/video/848cd1be-b9f6-438e-9707-4f85246234ca?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f"
+    "https://web.microsoftstream.com/video/e07b9cef-7f0c-4330-adcd-dc5f898c2b15?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f",
+    "https://web.microsoftstream.com/video/7b588d4d-08aa-421e-afcc-de4016818fca?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f",
+    "https://web.microsoftstream.com/video/76ee549d-e9c0-40d5-a174-ae1fb6ad2217?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f",
+    "https://web.microsoftstream.com/video/71661e48-b5bf-4cd6-8bc1-3e02c9361a43?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f",
+    "https://web.microsoftstream.com/video/4de18a28-809f-41e3-b8b4-74b59fa43f78?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f",
+    "https://web.microsoftstream.com/video/f32fee61-64e0-4074-a28e-695589713a28?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f",
+    "https://web.microsoftstream.com/video/a3c65f7b-272d-4be4-aab3-5a4b973c485c?list=user&userId=098edaf9-d5ca-418e-afc9-02c34597cd7f",
+]
+'''
+
+'''
+NUCLEAR
+
+SIM_NUCLEAR = [
+    "https://web.microsoftstream.com/video/f42e681b-65fc-413e-b46d-a1775740a272",
+    "https://web.microsoftstream.com/video/3f038cb5-aba6-4e05-819d-4bff1c6c25ff",
+    "https://web.microsoftstream.com/video/046dcb48-df34-424d-be0f-33e9add203db",
+    "https://web.microsoftstream.com/video/c7979044-2d62-4970-bc56-d702b3bd4ed3",
+    "https://web.microsoftstream.com/video/5f7ee02e-fde4-4689-aa8c-3c5e3be0417a",
+    "https://web.microsoftstream.com/video/3574b9da-28b9-43c9-839a-787122985ba6",
+    "https://web.microsoftstream.com/video/4c2722c6-1d99-4809-9ab2-829254c96d84",
+    "https://web.microsoftstream.com/video/8dcaee00-d7a0-44ca-baed-a4d9d8b8e7bb",
+    "https://web.microsoftstream.com/video/3eeb3191-5455-41d2-b098-ceeca068cadc",
+    "https://web.microsoftstream.com/video/51fa01ca-7213-4833-8a45-64b4543954ec",
+    "https://web.microsoftstream.com/video/0724619b-a568-4c63-8428-80bc28296622",
+    "https://web.microsoftstream.com/video/11458eca-c4a8-49d2-a44c-c592b06c2e01",
+    "https://web.microsoftstream.com/video/e0ba0483-3b32-4e7c-9fbd-4ad5aa17608c",
+    "https://web.microsoftstream.com/video/b5b256ef-8913-4c10-bdca-3a847cf6976a",
+    "https://web.microsoftstream.com/video/811300fa-23ed-4a19-b7fd-62f86e5d70fa",
+    "https://web.microsoftstream.com/video/6eb32dd2-07c7-413d-aea3-f207113c145f",
+    "https://web.microsoftstream.com/video/ffce5960-0bd5-4c35-a665-9abf3279f1f4",
+    "https://web.microsoftstream.com/video/46248df4-af87-4e83-96a8-d92eba7f56d3",
+    "https://web.microsoftstream.com/video/679a91fd-08b8-4cbd-9d35-bdbf1405c271",
+]
+
+MARGONNE_NUCLEAR = [
+    "https://web.microsoftstream.com/video/2f4900fc-4f86-4cf4-a26d-f9f4b69ed59d",
+    "https://web.microsoftstream.com/video/65a5a0ce-055f-402d-b1ed-129e4689ec37",
+    "https://web.microsoftstream.com/video/22409e1d-1926-49cb-8fdf-0473a4ba26ea",
+    "https://web.microsoftstream.com/video/62fae006-8f18-4e03-9d8c-04bc359d0ff4",
+    "https://web.microsoftstream.com/video/8c7f1c0f-a680-4408-ad93-04b3a6797809",
+    "https://web.microsoftstream.com/video/67b36b12-aa2b-482a-bceb-32dc6f03d546",
+    "https://web.microsoftstream.com/video/8dbf2002-8ceb-442a-9171-44757abb22e8",
+    "https://web.microsoftstream.com/video/51774d52-d698-4504-b226-92f98e3bf8e0",
+    "https://web.microsoftstream.com/video/662ad4bb-b6c3-426b-8127-d7411efecda2"
+]
 
 '''
 
+'''
+PALMER_LECTURES = [
+    "https://web.microsoftstream.com/video/cf01ab5e-88da-4edf-9160-e74455fcc4d1",
+    "https://web.microsoftstream.com/video/8b9a08ba-2d59-405a-8ff2-25cce1be4c59",
+    "https://web.microsoftstream.com/video/5103f779-e6da-4950-842f-92a1d81786d5",
+    "https://web.microsoftstream.com/video/80eff17a-4290-40fd-92b1-20b0d4211162",
+    "https://web.microsoftstream.com/video/2cc56611-8a99-4643-85ea-bd4689cacd82",
+    "https://web.microsoftstream.com/video/caa11975-51a8-4fbd-8abe-9db1f3203fce",
+    "https://web.microsoftstream.com/video/386caab1-63cd-44d7-8fc0-b69bdb018992?channelId=280af834-223c-4de9-906e-a4c8621031c8",
+    "https://web.microsoftstream.com/video/1c16656a-8ce2-41f8-9e30-3dccc2b6c605?channelId=280af834-223c-4de9-906e-a4c8621031c8",
+    "https://web.microsoftstream.com/video/4ad6551b-9e1c-4274-824d-29f024e6623f?channelId=280af834-223c-4de9-906e-a4c8621031c8",
+    "https://web.microsoftstream.com/video/b7a181fa-10ac-44c0-8534-5c0a95b227bc?channelId=280af834-223c-4de9-906e-a4c8621031c8",
+    "https://web.microsoftstream.com/video/d4d47b81-4d38-4b3a-bf67-cdf1222256f9?channelId=280af834-223c-4de9-906e-a4c8621031c8",
+    "https://web.microsoftstream.com/video/a48b5eb0-3543-41f9-9343-173398aacb6d?channelId=280af834-223c-4de9-906e-a4c8621031c8",
+    "https://web.microsoftstream.com/video/56d32834-385d-4246-9a69-8a9309b37617?channelId=280af834-223c-4de9-906e-a4c8621031c8",
+]
+SARRI_LECTURES = [
+    "https://web.microsoftstream.com/video/26362b41-3ec2-4be7-948c-b200dc0c7447",
+    "https://web.microsoftstream.com/video/1f1193ec-0776-4f4c-b32e-e1f7d979d1a6?list=studio",
+    "https://web.microsoftstream.com/video/ea1b74a1-b005-4cc2-a69b-b17ebe9f39c0?list=studio",
+    "https://web.microsoftstream.com/video/3b4d0169-797d-4ee4-afb5-6be16569e270?list=studio",
+    "https://web.microsoftstream.com/video/c6b49ee1-22bf-46a4-8dfe-4206ba79cd57",
+    "https://web.microsoftstream.com/video/af4dc801-8164-4ff5-9482-d9c785f6f4d7",
+    "https://web.microsoftstream.com/video/252361cf-91e3-4c9c-a88f-e5e61b39fbc1"
+    "https://web.microsoftstream.com/video/adaabf1f-9b81-40f4-b315-91f0318b9cb7",
+    "https://web.microsoftstream.com/video/f9b7080b-a516-4066-aa27-1c17b55f63b3",
+    "https://web.microsoftstream.com/video/c08ee839-5f11-494a-a603-ca1dbf3cd0a3",
+    "https://web.microsoftstream.com/video/b91b1ef4-69e3-4fa1-ad41-9c6ac4fd3399",
+]
+'''
+
+
+'''
+
+'''
+
+
+'''
+STAT-MECH
 #MsStreams().download_transcripts(gd_path = os.environ.get('GECKODRIVER_PATH') , db = db_init.db, resource_urls=FIELD_URLS)
-SIM_URLS = [ # up 7/12/21
+SIM_URLS = [ # up 7/12/21 -
     "https://web.microsoftstream.com/video/60a76609-f61a-42d6-aa20-77431b931344",
     "https://web.microsoftstream.com/video/d0e45c75-34ed-48df-ba76-d12eaed372eb",
     "https://web.microsoftstream.com/video/b029fd8d-aa43-4c4e-82e6-f5750eb35f4b",
@@ -69,18 +232,6 @@ SIM_URLS = [ # up 7/12/21
     "https://web.microsoftstream.com/video/4793a582-17a9-44b6-a36a-6155dea9e400",
     "https://web.microsoftstream.com/video/3e6f33f6-a42b-4a90-9c9d-b1b67604e10f",
     "https://web.microsoftstream.com/video/1eb53641-109d-44bb-a062-31e65a2335a2"
-]
-
-MOOJ_URLS = [
-    "https://web.microsoftstream.com/video/9cd760bf-4e88-4925-8ce3-9a84b2581e3d",
-    "https://web.microsoftstream.com/video/b3b416c7-bf2c-4ab0-8673-e30c708452ec",
-    "https://web.microsoftstream.com/video/4f212b80-e839-4779-961a-52bb766996d6",
-    "https://web.microsoftstream.com/video/43f286d9-8a5e-43a3-95b8-c40864b0df36",
-    "https://web.microsoftstream.com/video/272c2067-678c-430c-8b4c-67351cda2187",
-    "https://web.microsoftstream.com/video/ed3b80ad-4a39-4f46-94ef-f68756cafb7b",
-    "https://web.microsoftstream.com/video/bf65a0a2-feda-4daf-9aac-3e2e514c2aa6",
-    "https://web.microsoftstream.com/video/15963d44-7de9-4715-a806-dde957494c5c",
-    "https://web.microsoftstream.com/video/3ee7cde1-4425-46f9-bd95-d3b84971f54d"
 ]
 
 #Complete
@@ -160,36 +311,5 @@ GREENWOOD_URLS = [
     "https://web.microsoftstream.com/video/a0cfbdef-3319-433a-838f-8efe0f2ad967"
 ]
 
-SCHWAMB_URLS = [
-    "https://web.microsoftstream.com/video/547c26a4-5876-43f5-8a2a-0f7a08071e04",
-    "https://web.microsoftstream.com/video/d9e991dd-4972-463e-810c-3d45e9b5547b",
-    "https://web.microsoftstream.com/video/e348c5a3-2015-4bd8-a45f-782ec24024e4",
-    "https://web.microsoftstream.com/video/b6f74408-3b2b-473a-a9c9-a798343285f7",
-    "https://web.microsoftstream.com/video/e8d934df-045b-4471-9a9c-5a7e13108b39",
-    "https://web.microsoftstream.com/video/d8d1972e-dfda-4f70-9ee5-13ee21801bc0",
-    "https://web.microsoftstream.com/video/9d7a994c-2304-410f-b4cb-39d044a90251",
-    "https://web.microsoftstream.com/video/98b377b3-d7ec-4eda-91c7-ac7521f73ee2",
-    "https://web.microsoftstream.com/video/0ec3bfe5-bb59-4609-aabe-a341182b89f8",
-    "https://web.microsoftstream.com/video/54b9526f-288e-489c-a555-a4a765e4adee",
-    "https://web.microsoftstream.com/video/f6be1d43-f0e1-4145-b664-15ea656070fc",
-    "https://web.microsoftstream.com/video/8f0e8d27-40f4-4841-918f-6cd454415315",
-    "https://web.microsoftstream.com/video/b7f09914-412f-405d-9432-fa5f34a9bfa7",
-    "https://web.microsoftstream.com/video/08f2d18c-1c9d-4326-b746-ed7b427e1e2a",
-    "https://web.microsoftstream.com/video/b1c5f6c2-7096-4c1f-ad42-2c96fca35811",
-    "https://web.microsoftstream.com/video/29bc1cdf-42a6-4587-ae58-4973a1d43ce0",
-    "https://web.microsoftstream.com/video/56fb03e3-b89c-4a94-84c4-8e4e20c21f91",
-    "https://web.microsoftstream.com/video/d713b6b8-c75a-4ff8-a58c-b3cb36865fbe",
-    "https://web.microsoftstream.com/video/d61536ed-cbff-4262-bf69-30d9f5e973f7",
-    "https://web.microsoftstream.com/video/dfee76f5-cdb8-47b3-9c10-da8664609d62",
-    "https://web.microsoftstream.com/video/b4f2a511-df41-4c7e-8982-63fac96653a8",
-    "https://web.microsoftstream.com/video/f3ff5cb0-5efd-43a4-a23c-2eecd4350064",
-    "https://web.microsoftstream.com/video/6094a2e5-bbeb-4833-8da7-33de405fcd9c",
-    "https://web.microsoftstream.com/video/f7064126-00dc-4605-928f-43ab3aa88206",
-    "https://web.microsoftstream.com/video/3e699ad6-18cd-46c4-8b26-7ae3f17f8f87",
-    "https://web.microsoftstream.com/video/6badc8af-1510-4f4b-8def-11522236319a",
-    "https://web.microsoftstream.com/video/e83b491b-a923-4f33-ba37-8dc90ad1ddf9",
-    "https://web.microsoftstream.com/video/33fe6341-84f0-4702-9987-cae4fcef1f62",
-    "https://web.microsoftstream.com/video/ffb186cd-f904-4d44-96e7-4c2dc6c15730",
-    
-]
+
 '''

@@ -5,11 +5,12 @@ from . import analysis
 
 @dataclass
 class Abstract:
-    """Wikipedia abstract"""
     ID: int
     type: str # video, notes, slides ...
     date: str
     lecturer: str
+    module_code: str
+    module_name: str
     url: str
     title: str
     description: str

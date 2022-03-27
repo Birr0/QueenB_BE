@@ -1,4 +1,5 @@
 import math
+from pydoc import doc
 from .analyse import analyze
 
 class Index:
@@ -6,12 +7,18 @@ class Index:
         self.db = db
       
     def index_document(self, document):
+        if not 'title' in document:
+            document['title'] = 'Untitled'
+        if not 'content' in document:
+            document['content'] = 'No content'
         for token in analyze(' '.join([document['content'], document['title'], document['lecturer']])):
             if not self.db.index.find_one({'token' : token}):
+
                 self.db.index.insert_one({'token': token , 'documents' : [str(document['_id'])]})
             else:
+                
                 self.db.index.update_one({'token': token}, {'$addToSet' : {'documents' : str(document['_id'])}})
-            
+        
     def delete_index(self):
         return self.db.index.drop()
         
