@@ -55,17 +55,17 @@ def compile_index():
 #db_init.db.documents.drop()
 #db_init.db.index.drop()
 
-'''
+
 modules = [f for f in listdir("./notes")]
 for module in modules:
     resources = (listdir(f'./notes/{module}'))
     for resource in resources: # resources = 'assignments', 'exam_papers' or 'lecturer_name'
-        if resource == 'assignments':
+        #if resource == 'assignments':
             #print(listdir(f'./notes/{module}/assignments'))
-            create_documents(listdir(f'./notes/{module}/assignments'),f'./notes/{module}/assignments' ,'assignment', '' ,module)
-        if resource == 'exam_papers':
+            #create_documents(listdir(f'./notes/{module}/assignments'),f'./notes/{module}/assignments' ,'assignment', '' ,module)
+        if resource == 'exam paper':
             create_documents(listdir(f'./notes/{module}/exam paper'), f'./notes/{module}/exam paper','exam paper', '' ,module)
-
+        '''
         else:
             docs = (listdir(f'./notes/{module}/{resource}'))
             for k in docs:
@@ -80,20 +80,26 @@ for module in modules:
                         MsStreams().download_transcripts(db = db_init.db, gd_path="scraper/transcript_generator_ms_streams/geckodriver/geckodriver.exe", resource_urls=transcripts, data={'module_code': modules[0], 'module_name': modules[1], 'lecturer': resource})
                 else:
                     pass
-'''
-docs = db_init.db.documents.find({'lecturer':'Dr Daniele Margarone', 'type':'video'})
+        '''
 
 
-for doc in docs:
+#docs = db_init.db.documents.find({'lecturer':'Dr Daniele Margarone', 'type':'video'})
+
+
+#for doc in docs:
     #doc = db_init.db.documents.find_one({'_id': id})
     
-    print('adding {}'.format(doc['_id']))
+    #print('adding {}'.format(doc['_id']))
     
-    index.Index(db=db_init.db).index_document(doc)
-
+    #index.Index(db=db_init.db).index_document(doc)
 
 
 #x = db_init.db.documents.find({'type':'exam paper'})
+
+#for i in x:
+#    print(i)
+
+#
 #compile_index()
 
 '''

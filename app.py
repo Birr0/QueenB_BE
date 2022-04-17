@@ -55,7 +55,7 @@ def quick_search(query, offset):
         emit('results', {'data': json.dumps(list(db_init.db.documents.find({'_id': {'$in': list(docs)[5 * (int(offset)): (5 * int(offset)) + 5]}})), default=json_util.default), 'number_results': len(docs), 'search_type': '0', 'offset': offset}) # 0 is quick search
         
     #print('Time taken for response' + str(time.time() - start), flush=True)
-
+results = list(db_init.db.index.find({'token': {'$in': list(map(lambda x: re.compile('{}'.format(x)),analyze(query)))}})) # monitor this performance
 @socketio.on('search')
 def search(query, offset):
 
@@ -153,8 +153,6 @@ def advanced_search():
     
 @app.route('/test')
 def test_db():
-   
-   
     return #{'data': json.dumps(list(db_init.db.documents.find({"$and": [*filters]})), default=json_util.default)}
 
 
