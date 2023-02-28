@@ -79,7 +79,6 @@ class MsStreams:
                 #date = soup.find(class_="info-message-content ng-binding ng-scope").text
                 #document['date'] = date
 
-
                 try:
                     description = soup.find(class_="item-description-content ng-binding ng-scope").text
                     document['description'] = description

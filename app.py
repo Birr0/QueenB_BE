@@ -1,20 +1,20 @@
-from ast import mod
 from threading import Lock
-from flask import Flask, render_template, send_from_directory, make_response, request
-from flask.wrappers import Response
+from flask import Flask, send_from_directory, make_response, request
 from flask_socketio import SocketIO, emit
 from flask_cors import CORS
 import db_init
-from search_engine.indexer.index import Index
-from search_engine.indexer.analyse import analyze
+#from search_engine.indexer.index import Index
+#from search_engine.indexer.analyse import analyze
 from bson.objectid import ObjectId
 from bson import json_util
 import json
 import time
 from dotenv import load_dotenv
 import re
-from search_engine.ranker.rank import document_frequency
-import sys
+#from search_engine.ranker.rank import document_frequency
+
+from search_engine.es_test import es 
+
 
 load_dotenv()
 
@@ -26,8 +26,7 @@ load_dotenv()
 app = Flask(__name__)#
 CORS(app, origins=['http://localhost:3000'])
 app.config['SECRET_KEY'] = 'secret!'
-socketio = SocketIO(app, cors_allowed_origins='http://localhost:3000')
-
+socketio = SocketIO(app, cors_allowed_origins=['http://localhost:3000'])
 
 thread = None
 thread_lock = Lock()
@@ -43,28 +42,65 @@ def quick_search(query, offset):
  
     #OR search ...
     
-    results = list(db_init.db.index.find({'token': {'$in': list(map(lambda x: re.compile('{}'.format(x)),analyze(query)))}})) # monitor this performance
+    '''results = list(db_init.db.index.find({'token': {'$in': list(map(lambda x: re.compile('{}'.format(x)), query))}})) # monitor this performance # analyze(query)
     
     docs = set([])
     for result in results:
         docs.update(list(map(lambda doc: ObjectId(doc) ,result['documents'])))
-    
-    if len(docs) <= 5:
+    '''
+    body = {
+        "_source": {
+            "includes": [ "*" ],
+            #"excludes": [ "transcript" ]
+        },
+        "query": {
+            "match": {
+            
+            "content": {
+                "query": query,
+                "fuzziness": "AUTO"
+            },
+            }
+        } 
+    }
+
+    return emit('results', {'data': json.loads(json_util.dumps(es.search(index="level_3", body = body))), 'number_results': 1, 'search_type': '1', 'offset': offset}) # 1 is full_search
+
+
+    '''if len(docs) <= 5:
         emit('results', {'data': json.dumps(list(db_init.db.documents.find({'_id': {'$in': list(docs)}})), default=json_util.default), 'number_results': len(docs), 'search_type': '0', 'offset': offset})
     else:
-        emit('results', {'data': json.dumps(list(db_init.db.documents.find({'_id': {'$in': list(docs)[5 * (int(offset)): (5 * int(offset)) + 5]}})), default=json_util.default), 'number_results': len(docs), 'search_type': '0', 'offset': offset}) # 0 is quick search
+        emit('results', {'data': json.dumps(list(db_init.db.documents.find({'_id': {'$in': list(docs)[5 * (int(offset)): (5 * int(offset)) + 5]}})), default=json_util.default), 'number_results': len(docs), 'search_type': '0', 'offset': offset}) # 0 is quick search'''
         
     #print('Time taken for response' + str(time.time() - start), flush=True)
-results = list(db_init.db.index.find({'token': {'$in': list(map(lambda x: re.compile('{}'.format(x)),analyze(query)))}})) # monitor this performance
+#results = list(db_init.db.index.find({'token': {'$in': list(map(lambda x: re.compile('{}'.format(x)), query))}})) # monitor this performance
 @socketio.on('search')
 def search(query, offset):
 
     #AND search
     #print(offset, flush=True)
-    tokens = analyze(query)
-    results = list(db_init.db.index.find({"token" : {"$in" : tokens}})) # handy to cache
+    '''tokens = query #analyze(query)
+    results = list(db_init.db.index.find({"token" : {"$in" : tokens}}))''' # handy to cache
+#
+    body = {
+        "_source": {
+            "includes": [ "*" ],
+            #"excludes": [ "transcript" ]
+        },
+        "query": {
+            "match": {
+            
+            "content": {
+                "query": query,
+                "fuzziness": "AUTO"
+            },
+            }
+        } 
+    }
+    
+    return emit('full_results', {'data': json.loads(json_util.dumps(es.search(index="level_3", body = body))), 'number_results': 1, 'search_type': '1', 'offset': offset}) # 1 is full_search
 
-    if results:
+    '''if results:
         results = set.intersection(*list(set(result['documents']) for result  in results))
         results = list(map(lambda result: ObjectId(result), results))
         if len(results) <= 5:
@@ -72,9 +108,9 @@ def search(query, offset):
         else:
             emit('full_results', {'data': json.dumps(list(db_init.db.documents.find({'_id': {'$in': results[5 * (int(offset)): (5 * int(offset)) + 5]}})), default=json_util.default), 'number_results': len(results), 'search_type': '1', 'offset': offset}) # add pagination here ...
     else:
-        emit('full_results', {'data' : json.dumps([])})
+        emit('full_results', {'data' : json.dumps([])})'''
 
-    #ADD OR search ...
+    
 
 @socketio.on('get_resource')
 def get_resource(resource_id):
@@ -85,77 +121,62 @@ def get_resource(resource_id):
             emit('resource_response', json.dumps(result, default=json_util.default))
         else:
             emit('resource_response', json.dumps({'message': 'No resource found'}))
+
 # fix paths...
+
 @app.route('/pdfNotes/<path:docId>')
 def get_pdf_notes(docId):
+
     doc = db_init.db.documents.find_one({'_id': ObjectId(str(docId))})
 
-    resp = make_response(send_from_directory(directory='',path='./notes/{}_{}/{}/{}/{}'.format(doc['module_code'], doc['module_name'], doc['lecturer'], doc['type'], doc['title'].split(' - ')[0].rstrip()), as_attachment=False))
+    resp = make_response(send_from_directory(directory='',path='./notes/{}_{}/{}/{}/{}'.format(doc['module_code'], doc['module_name'], doc['lecturer'], doc['type'], doc['title'].split(".pdf")[0].strip() + ".pdf"), as_attachment=False))
     resp.headers['Access-Control-Allow-Origin'] = '*' #'http://localhost:3000/'
     return resp
+
 
 @app.route('/search/advanced')
 def advanced_search():
     query = request.values.get("query")
     offset = request.values.get("offset")
     
+    module_codes = json.loads(request.values.get('module'))
+    lecturers = json.loads(request.values.get('lecturer')) 
+    _types = json.loads(request.values.get('type'))
     
-    module_code = json.loads(request.values.get('module'))
-    lecturer = json.loads(request.values.get('lecturer')) 
-    _type = json.loads(request.values.get('type'))
-    
-    tokens = analyze(query)
-    results = list(db_init.db.index.find({"token" : {"$in" : tokens}})) # handy to cache
-     # change hardcode
-    filters = []
+    body = {
+        "query": {
+           "bool": { 
+                "must": [
+                    { "match": {
+                        "content": {
+                            "query": query,
+                            "fuzziness": "AUTO"
+                        },
+                }},
+                ],
+                "should":[]
+                
+           }
+        }
+    }
 
-    
-    if module_code != []:
-        filters.append({'module_code': {'$in': module_code}})
-    
-    if lecturer != []:
-        filters.append({'lecturer': {'$in': lecturer}})
-    
-    if _type != []:
-        filters.append({'type': {'$in': _type}})
-    
-    #d = list(db_init.db.documents.find({"$and": [*filters]}))
-    
-    if results:
-        results = set.intersection(*list(set(result['documents']) for result  in results))
-        results = list(map(lambda result: ObjectId(result), results))
-        
-        #resp = list(db_init.db.documents.find({"$and" : [*filters, {'_id': {'$in': results[20 * (int(offset)): (20 * int(offset)) + 20]}}]}))
-            #print(resp, flush=True)
-        #return {'data': json.dumps(resp, default=json_util.default), 'number_results': num_results, 'search_type': '1', 'offset': offset} # add pagination here ...
+    if module_codes:
+        for code in module_codes:
+            body["query"]["bool"]["must"].append({"match":{"module_code":code}})
+    if lecturers:
+        for lecturer in lecturers:
+            body["query"]["bool"]["must"].append({"match":{"lecturer": lecturer}})
+    if _types:
+        for _type in _types:
+            body["query"]["bool"]["should"].append({"match":{"type": _type}})
 
-        resp = list(db_init.db.documents.find({"$and": [*filters, {'_id': {'$in': results}}]}))
-            
-        return {'data': json.dumps(resp, default=json_util.default), 'number_results': len(resp), 'search_type': '1', 'offset': offset} # 1 is full_search
-        '''
-        if len(results) <= 20:
-            resp = list(db_init.db.documents.find({"$and": [*filters, {'_id': {'$in': results}}]}))
-            
-            return {'data': json.dumps(resp, default=json_util.default), 'number_results': len(resp), 'search_type': '1', 'offset': offset} # 1 is full_search
-        else:
-            #,  'lecturer': lecturer, 'module_code': module_code, 'type': _type
-            #q = {'_id': {'$in': results[5 * (int(offset)): (5 * int(offset)) + 5]}}.update({'module_code':module_code, 'lecturer': lecturer, 'type': _type})
-            num_results = len(list(db_init.db.documents.find({"$and" : [*filters, {'_id': {'$in': results}}]})))
-            
-            resp = list(db_init.db.documents.find({"$and" : [*filters, {'_id': {'$in': results[20 * (int(offset)): (20 * int(offset)) + 20]}}]}))
-            #print(resp, flush=True)
-            return {'data': json.dumps(resp, default=json_util.default), 'number_results': num_results, 'search_type': '1', 'offset': offset} # add pagination here ...
-        '''
-    else:
-        return {'data' : []}
 
+    return json.loads(json_util.dumps(es.search(index="level_3", body = body)))#json.dumps({'data': resp}) 
+    #{'data' : resp} #resp
+    
     #return {'data': json.dumps(list(db_init.db.documents.find({'_id': {'$in': list(results)[5 * (int(offset)): (5 * int(offset)) + 5]}})), default=json_util.default), 'number_results': len(results), 'search_type': '0', 'offset': 1} # 0 is quick search 
     
-@app.route('/test')
-def test_db():
-    return #{'data': json.dumps(list(db_init.db.documents.find({"$and": [*filters]})), default=json_util.default)}
-
 
 if __name__ == '__main__':
     socketio.run(app)
-    #app.run()
+    app.run()
